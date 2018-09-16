@@ -1,0 +1,58 @@
+[debug (8/1/18 1:29:48 AM)] Debug: setLogFile: C:\SikuliX\SikuliX-1.1.2-SetupLog.txt
+[debug (8/1/18 1:29:48 AM)] RunSetup: ... starting with no args given
+[debug (8/1/18 1:29:48 AM)] RunSetup: Setup: 1.1.2 2018-03-08_08:37 in folder:
+C:\SikuliX
+[debug (8/1/18 1:29:48 AM)] RunSetup: RunningSystem: Windows 6.1
+[debug (8/1/18 1:29:48 AM)] RunSetup: parent of jar/classes: C:\SikuliX
+[debug (8/1/18 1:29:48 AM)] RunSetup: RunningJava: Java 8 (amd64) 1.8.0_171-b11
+[debug (8/1/18 1:29:48 AM)] init user preferences
+[debug (8/1/18 1:30:02 AM)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+C:\SikuliX
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 1 ---
+sikulixsetupIDE-1.1.2-20180308.083933-100-forsetup.jar (IDE/Scripting)
+sikulixsetupAPI-1.1.2-20180308.083909-100-forsetup.jar (Java API)
+ - with Jython
+ - with JRuby
+--- Package 2 ---
+sikulixsetupAPI-1.1.2-20180308.083909-100-forsetup.jar (done in package 1)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (8/1/18 1:30:05 AM)] FileManager: Downloading sikulixlibswin-1.1.1.jar having 10577 KB
+[debug (8/1/18 1:30:13 AM)] FileManager: downloaded 10577 KB to:
+C:\Users\SUBHODEEP\AppData\Roaming\Sikulix\SikulixDownloads\sikulixlibswin-1.1.1.jar
+[debug (8/1/18 1:30:13 AM)] FileManager: download time: 7
+[debug (8/1/18 1:30:16 AM)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (8/1/18 1:30:16 AM)] FileManager: resetFolder:
+C:\SikuliX\SetupStuff\sikulixlibs\windows
+jar:file:/C:/SikuliX/sikulixlibswin.jar
+[debug (8/1/18 1:30:16 AM)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixsetupAPI/1.1.2-SNAPSHOT/maven-metadata.xml,
+[debug (8/1/18 1:30:17 AM)] RunSetup: getMavenJar: sikulixsetupAPI-1.1.2-20180308.083909-100-forsetup.jar
+[debug (8/1/18 1:30:17 AM)] FileManager: Downloading sikulixsetupAPI-1.1.2-20180308.083909-100-forsetup.jar having 19104 KB
+[debug (8/1/18 1:30:39 AM)] FileManager: downloaded 19104 KB to:
+C:\Users\SUBHODEEP\AppData\Roaming\Sikulix\SikulixDownloads_201803080837\sikulixsetupAPI-1.1.2-20180308.083909-100-forsetup.jar
+[debug (8/1/18 1:30:39 AM)] FileManager: download time: 21
+[debug (8/1/18 1:30:43 AM)] RunSetup: Copied from Downloads: sikulixapi
+[debug (8/1/18 1:30:43 AM)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixsetupIDE/1.1.2-SNAPSHOT/maven-metadata.xml,
+[debug (8/1/18 1:30:43 AM)] RunSetup: getMavenJar: sikulixsetupIDE-1.1.2-20180308.083933-100-forsetup.jar
+[debug (8/1/18 1:30:43 AM)] FileManager: Downloading sikulixsetupIDE-1.1.2-20180308.083933-100-forsetup.jar having 23015 KB
+[debug (8/1/18 1:31:08 AM)] FileManager: downloaded 23015 KB to:
+C:\Users\SUBHODEEP\AppData\Roaming\Sikulix\SikulixDownloads_201803080837\sikulixsetupIDE-1.1.2-20180308.083933-100-forsetup.jar
+[debug (8/1/18 1:31:08 AM)] FileManager: download time: 24
+[debug (8/1/18 1:31:12 AM)] RunSetup: Copied from Downloads: sikulix
+[debug (8/1/18 1:31:12 AM)] RunSetup: 
+popAsk: --------------------
+If you click YES, you will get Jython version 2.7.0 (recommended)
+... but in rare cases there might be issues with UTF-8/Unicode
+that usually appear on startup when UTF-8 characters
+are present somewhere in the system environment
+If you encounter such problems with Jython 2.7.0
+run setup again and
+click NO to get Jython a 2.5.4 version
+--------------------
+[debug (8/1/18 1:55:08 AM)] RunTimeSETUP: final cleanup
